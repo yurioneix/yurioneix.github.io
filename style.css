@@ -27,6 +27,10 @@ strong {
     height: 270px;
 }
 
+.my-name {
+    text-align: center;
+}
+
 div {
     border: 1px solid red;
 }
