@@ -17,3 +17,16 @@ strong {
 .html, .css, .javascript, .java, .c, .sql {
     font-size: 1.5em;
 }
+
+.profile-photo {
+    float: left;
+    height: 270px;
+}
+
+.image-container {
+    height: 270px;
+}
+
+div {
+    border: 1px solid red;
+}
