@@ -43,3 +43,7 @@ body {
     left: 250px;
     top: 50px;
 }
+
+.skills-list li:nth-of-type(odd) {
+    color: white;
+}
