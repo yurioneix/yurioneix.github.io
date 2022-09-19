@@ -8,7 +8,7 @@
 ##### Um link interno para a sua foto;
 ##### Um link externo para algum blog de que você goste, que abra em uma nova aba;
 ##### Partes do seu portfólio destacadas com negrito e/ou itálico;
-##### EUm índice com links internos para as diferentes seções do seu portfólio.
+##### Um índice com links internos para as diferentes seções do seu portfólio.
 
 ### Requisitos 2
 
@@ -16,4 +16,5 @@
 ##### Defina fontes diferentes para o seu nome e para a descrição que você criou;
 ##### Defina uma cor base de background do seu Portfólio Web;
 ##### Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
-##### Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. ##### Lembre-se de usar classes para cada um dos elementos;
+##### Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou
+##### Lembre-se de usar classes para cada um dos elementos;
