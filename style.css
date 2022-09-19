@@ -1,0 +1,19 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #A2E3C4;
+}
+
+strong {
+    font-style: italic;
+}
+
+.html, .css, .javascript, .java, .c, .sql {
+    font-size: 1.5em;
+}
