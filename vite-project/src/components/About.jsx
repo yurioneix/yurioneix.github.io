@@ -5,13 +5,13 @@ function About() {
                 <img width="300px" src="src/assets/images/IMG-8204.JPG"></img>
                 <h1>Olá, mundo!</h1>  
                 <p>
-                    Meu nome é <strong>Yuri Rodrigues Nogueira</strong>, tenho 27 anos e sou natural de <em>Cabo Frio, cidade litorânea do estado do Rio de Janeiro.</em> 
+                    Meu nome é <strong>Yuri Rodrigues Nogueira</strong>, tenho 28 anos e sou natural de <em>Cabo Frio, cidade litorânea do estado do Rio de Janeiro.</em> &#127796; &#127754;
                 </p>
                 <p>
-                Me formei em <strong>2017</strong> no curso de <strong>Ciência da Computação</strong> pela <strong>Universidade Anhanguera de Niterói</strong>.
+                    Formado em Ciência da Computação pela Universidade Anhanguera de Niterói e recém formado em Desenvolvimento Web Fullstack pela <a href="https://www.betrybe.com/" target="blank">Trybe.</a> &#128187;
                 </p>
                 <p>
-                Esse é o meu portfólio que estará sendo desenvolvido ao longo do curso de <strong><em>Desenvolvimento Web da Trybe</em></strong>. Espero que curtam acompanhar minha trajetória!
+                    Apaixonado por futebol (tricolor de coração &#127469;&#127482;), praia, musculação e pedalar nas horas vagas. 
                 </p>
             </section>
         </>
