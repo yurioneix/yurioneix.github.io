@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Projects() {
+function Repositories() {
 
     const [repos, setRepos] = useState([]);
 
@@ -37,4 +37,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default Repositories;

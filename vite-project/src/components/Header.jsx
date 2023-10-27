@@ -1,12 +1,18 @@
+import { Link } from "react-router-dom";
 
 function Header() {
     return ( 
         <nav>
             <ul>
-                <li><a href="#foto-perfil">Foto</a></li>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#lista-habilidades">Lista de habilidades</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <Link to="/">Sobre mim</Link>
+                </li>
+                <li>
+                    <Link to="/projects">Projetos</Link>
+                </li>
+                <li>
+                    <Link to="#contato">Contato</Link>
+                </li>
             </ul>
         </nav>
      );
