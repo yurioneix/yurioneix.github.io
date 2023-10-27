@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import RepositoriesCard from "./RepositoriesCard";
 
 function Repositories() {
 
@@ -15,25 +16,21 @@ function Repositories() {
         getRepos();
     }, [])
 
-    const parseDate = (string) => {
-        const data = new Date(string);
-        const dia = String(data.getDate()).padStart(2, '0');
-        const mes = String(data.getMonth() + 1).padStart(2, '0');
-        const ano = data.getFullYear();
-
-        return `${dia}/${mes}/${ano}`;
-    }
-
     return (
-        <section>
-            <div>
-                <h2>{repos[0]?.name}</h2>
-                <a>{repos[0]?.html_url}</a>
-                <p>{repos[0]?.description}</p>
-                <p>{repos[0]?.language}</p>
-                <p>{parseDate(repos[0]?.updated_at)}</p>
-            </div>
-        </section>
+       <>
+        { 
+            repos.map((repo) => 
+            <RepositoriesCard 
+              name={repo?.name}
+              html_url={repo?.html_url}
+              description={repo?.description}
+              language={repo?.language}
+              updated_at={repo?.updated_at}
+              key={repo.id}
+            />
+            )
+        }
+       </>
     );
 }
 
